@@ -1,4 +1,5 @@
 # Spring Boot Web Services
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/gabrielwenchenck/springboot3-web-services/blob/main/LICENSE) 
 
 # Sobre o projeto
 
