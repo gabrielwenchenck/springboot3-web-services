@@ -1,18 +1,12 @@
-# Big Game Survey 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
+# Spring Boot Web Services
 
 # Sobre o projeto
 
-https://wmazoni-sds1.netlify.app
-
 Este projeto é um sistema de gerenciamento de e-commerce desenvolvido com Spring Boot. O sistema é projetado para gerenciar produtos, categorias, itens de pedido, pedidos, usuários e pagamentos.
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
 
 ## Modelo de domínio
-![Modelo de domínio](![image](https://github.com/gabrielwenchenck/springboot3-web-services/assets/104534121/92ec1115-2468-4614-96c5-ad78846b1ee1)
-)
+![image](https://github.com/gabrielwenchenck/springboot3-web-services/assets/104534121/d3807073-4e77-4c8f-a9fd-5b81c0840624)
 
 ### Product
 - Representa os produtos disponíveis para venda no e-commerce. Cada produto tem atributos como nome, descrição, preço e quantidade em estoque.
@@ -60,4 +54,3 @@ git clone https://github.com/gabrielwenchenck/springboot3-web-services.git
 # Autor
 Gabriel Inácio Wenchenck de Carvalho
 
-Wellington Mazoni de Andrade
