@@ -3,7 +3,11 @@
 
 # Sobre o projeto
 
-Este projeto é um sistema de gerenciamento de e-commerce desenvolvido com Spring Boot. O sistema é projetado para gerenciar produtos, categorias, itens de pedido, pedidos, usuários e pagamentos.
+Este projeto é um serviço de gerenciamento de e-commerce desenvolvido com Spring Boot. O objetivo deste projeto foi treinar minhas habilidades com relacionamento de tabelas, JPA/Hibernate e deploy, por isso, os dados já estão semeados e só há a possibilidade de cadastrar/excluir/editar usuários, sendo as outras entidades fixas.
+
+# Documentação
+
+[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://documenter.getpostman.com/view/21578696/2s9YJXakbB)
 
 
 ## Modelo de domínio
@@ -35,7 +39,7 @@ Este projeto é um sistema de gerenciamento de e-commerce desenvolvido com Sprin
 - Maven
 
 ## Implantação em produção
-- Back end: Heroku
+- Back end: Railway
 - Banco de dados: Postgresql
 
 # Como executar o projeto
