@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Este projeto é um serviço de gerenciamento de e-commerce desenvolvido com Spring Boot. O objetivo deste projeto foi treinar minhas habilidades com relacionamento de tabelas, JPA/Hibernate e deploy, por isso, os dados já estão semeados e só há a possibilidade de cadastrar/excluir/editar usuários, sendo as outras entidades fixas.
+Este projeto é um serviço de gerenciamento de e-commerce desenvolvido com Spring Boot. O objetivo deste projeto foi treinar minhas habilidades com SQL (relacionamento de tabelas) e JPA/Hibernate, por isso, os dados já estão semeados e só há a possibilidade de cadastrar/excluir/editar usuários, sendo as outras entidades fixas.
 
 # Documentação
 
