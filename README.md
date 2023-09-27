@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-Este projeto é um serviço de gerenciamento de e-commerce desenvolvido com Spring Boot. O objetivo deste projeto foi treinar minhas habilidades com SQL e JPA/Hibernate, bem como compreender as decisões de design para um banco de dados relacional, por isso, os dados já estão semeados e só há a possibilidade de cadastrar/excluir/editar usuários, sendo as outras entidades fixas.
+Este projeto é um serviço de gerenciamento de e-commerce desenvolvido com Spring Boot. O objetivo deste projeto foi treinar minhas habilidades de deploy, SQL e JPA/Hibernate, bem como compreender as decisões de design para um banco de dados relacional, por isso, os dados já estão semeados e só há a possibilidade de cadastrar/excluir/editar usuários, sendo as outras entidades fixas.
 
 # Documentação
 
@@ -47,6 +47,7 @@ Este projeto é um serviço de gerenciamento de e-commerce desenvolvido com Spri
 ## Back end
 Pré-requisitos: Java 17
 
+## Para executar o projeto:
 ```bash
 # clonar repositório
 git clone https://github.com/gabrielwenchenck/springboot3-web-services.git
@@ -54,7 +55,11 @@ git clone https://github.com/gabrielwenchenck/springboot3-web-services.git
 # executar o projeto
 ./mvnw spring-boot:run
 ```
+**Importante:** Antes de executar o projeto localmente, alterar o perfil de produção para testes:
 
+No arquivo application.properties, que fica localizado no diretório /src/main/resources, alterar de
+
+```spring.profiles.active=prod``` para ```spring.profiles.active=test```
 
 # Autor
 Gabriel Inácio Wenchenck de Carvalho
