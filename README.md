@@ -57,7 +57,7 @@ git clone https://github.com/gabrielwenchenck/springboot3-web-services.git
 ```
 **Importante:** Antes de executar o projeto localmente, alterar o perfil de produção para testes:
 
-No arquivo application.properties, que fica localizado no diretório /src/main/resources, alterar de
+No arquivo ```application.properties```, que fica localizado no diretório /src/main/resources, alterar de
 
 ```spring.profiles.active=prod``` para ```spring.profiles.active=test```
 
