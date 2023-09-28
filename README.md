@@ -1,11 +1,11 @@
 # Spring Boot Web Services
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/gabrielwenchenck/springboot3-web-services/blob/main/LICENSE) 
 
-# Sobre o projeto
+## Sobre o projeto
 
 Este projeto é um serviço de gerenciamento de e-commerce desenvolvido com Spring Boot. O objetivo deste projeto foi treinar minhas habilidades de deploy, SQL e JPA/Hibernate, bem como compreender as decisões de design para um banco de dados relacional, por isso, os dados já estão semeados e só há a possibilidade de cadastrar/excluir/editar usuários, sendo as outras entidades fixas.
 
-# Documentação
+## Documentação
 
 [![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://documenter.getpostman.com/view/21578696/2s9YJXakbB)
 
@@ -31,8 +31,7 @@ Este projeto é um serviço de gerenciamento de e-commerce desenvolvido com Spri
 ### Payment
 - Representa o pagamento de um pedido. Cada pagamento está associado a um Order e tem um status que pode ser uma das várias opções representadas por uma enumeração.
 
-# Tecnologias utilizadas
-## Back end
+## Tecnologias utilizadas
 - Java
 - Spring Boot
 - JPA / Hibernate
@@ -41,13 +40,12 @@ Este projeto é um serviço de gerenciamento de e-commerce desenvolvido com Spri
 ## Implantação em produção
 - Back end: Railway
 - Banco de dados: Postgresql
-
-# Como executar o projeto
-
-## Back end
-Pré-requisitos: Java 17
+- [Backend](https://springboot3-web-services-production.up.railway.app/orders)
 
 ## Para executar o projeto:
+
+Pré-requisitos: Java 17
+
 ```bash
 # clonar repositório
 git clone https://github.com/gabrielwenchenck/springboot3-web-services.git
@@ -61,6 +59,6 @@ No arquivo ```application.properties```, que fica localizado no diretório /src/
 
 ```spring.profiles.active=prod``` para ```spring.profiles.active=test```
 
-# Autor
+## Autor
 Gabriel Inácio Wenchenck de Carvalho
 
